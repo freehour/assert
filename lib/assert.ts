@@ -1,4 +1,5 @@
 export interface AssertionErrorOptions extends ErrorOptions {
+
     /**
      * Additional context for the error.
      */
@@ -36,6 +37,7 @@ export class AssertionError extends Error {
 export type AssertFn = (condition: boolean, message?: string, context?: unknown) => asserts condition;
 
 export interface Assert extends AssertFn {
+
     /**
      * Asserts that a value is not `null` or `undefined`.
      * @param value The value to assert.

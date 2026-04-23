@@ -36,6 +36,7 @@
                     "source.organizeImports": "never"
                 },
                 "terminal.integrated.defaultProfile.linux": "bash",
+                "eslint.useFlatConfig": true,
 
                 "material-icon-theme.files.customClones": [
                     {
